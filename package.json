@@ -1,6 +1,6 @@
 {
   "name": "sibs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A small utility to easily access array siblings",
   "main": "index.js",
   "types": "index.d.ts",
