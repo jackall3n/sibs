@@ -1,0 +1,23 @@
+{
+  "name": "sibs",
+  "version": "1.0.3",
+  "description": "A small utility to easily access array siblings",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "homepage": "https://github.com/jackall3n/sibs",
+  "keywords": [
+    "sibs",
+    "siblings",
+    "array"
+  ],
+  "author": "jackall3n",
+  "license": "ISC",
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "typescript": "^4.9.3"
+  }
+}
