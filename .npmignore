@@ -2,3 +2,5 @@ index.ts
 tsconfig.json
 .idea
 .git
+tests
+coverage

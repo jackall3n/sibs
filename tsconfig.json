@@ -8,5 +8,6 @@
     "skipLibCheck": true,
     "declaration": true,
     "lib": ["dom", "es5", "scripthost", "es2015.generator"]
-  }
+  },
+  "exclude": ["tests"]
 }
