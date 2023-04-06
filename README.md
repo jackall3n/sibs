@@ -24,6 +24,18 @@ for (const [previous, current, next] of sibs(array)) {
 }
 ```
 
+### Index
+
+```typescript
+import sibs from 'sibs';
+
+const array = [{}, {}, {}];
+
+for (const [previous, current, next, index] of sibs(array)) {
+        
+}
+```
+
 ### Typed
 
 ```typescript
@@ -39,7 +51,8 @@ for (const item of sibs(array)) {
     const [
         previous,   // Item | undefined
         current,    // Item
-        next        // Item | undefined
+        next,       // Item | undefined
+        index,      // number
     ] = item;
 }
 ```
